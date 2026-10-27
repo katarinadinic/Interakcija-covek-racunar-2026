@@ -49,7 +49,7 @@ const handleLogin = async () => {
                 <div class="col-12 col-lg-6 login-brand-col d-none d-lg-flex flex-column justify-content-between p-5">
                     <div class="brand-top">
                         <span class="badge-accent">
-                            <i class="bi bi-camera-reels me-2"></i>PEQULA CINEMA
+                            <i class="bi bi-camera-reels me-2"></i>MY CINEMA
                         </span>
                     </div>
 
@@ -75,10 +75,6 @@ const handleLogin = async () => {
                             </div>
                         </div>
                     </div>
-
-                    <div class="brand-footer text-white-50 small">
-                        &copy; 2026 Pequla Cinema. Sva prava zadržana.
-                    </div>
                 </div>
 
                 <!-- Right Side: Login Form -->
@@ -88,7 +84,7 @@ const handleLogin = async () => {
 
                         <div class="text-center text-lg-start mb-4">
                             <span class="movie-label d-lg-none">
-                                <i class="bi bi-film me-2"></i> PEQULA CINEMA
+                                <i class="bi bi-film me-2"></i> MY CINEMA
                             </span>
                             <h2 class="fw-bold text-white mb-2">Dobro došli nazad</h2>
                             <p class="text-secondary small">Unesite svoje podatke za pristup nalogu.</p>

@@ -6,7 +6,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
         <div class="container-fluid">
             <RouterLink class="navbar-brand" to="/">
-                Filmovi
+                <i class="bi bi-camera-reels"></i> Filmovi
             </RouterLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -15,11 +15,11 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <RouterLink class="nav-link" active-class="active" to="/">
-                        <i class="fas fa-home"></i> Početna
+                        <i class="bi bi-house"></i> Početna
                     </RouterLink>
                 </li>
                     <RouterLink class="nav-link" active-class="active" to="/about">
-                        <i class="fas fa-info-circle"></i> O aplikaciji
+                        <i class="bi bi-info-circle"></i> O aplikaciji
                     </RouterLink>
             </ul>
             <slot>

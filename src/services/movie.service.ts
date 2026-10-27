@@ -5,5 +5,7 @@ const client = axios.create({
 });
 
 export class MovieService {
-    static async getMovie(perma: string) {}
+    static async getMovie(permalink: string) {
+      return await client.get(`/short/${permalink}`);
+    }
 }
