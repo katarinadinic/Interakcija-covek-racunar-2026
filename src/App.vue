@@ -7,6 +7,9 @@ const year = new Date().getFullYear()
 <template>
   <div class="container">
     <RouterView />
-    <p>Year: {{year}}</p>
+    <footer class="mt-3 text-center">
+      <span>&copy; {{year}} - Interakcija ovek racunar</span><br>
+      <span>Univerzitet Singidunum</span>
+    </footer>
   </div>
 </template>
