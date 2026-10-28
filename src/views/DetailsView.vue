@@ -36,7 +36,7 @@ watch(
         movie.value = null;
 
         try {
-            const response = await MovieService.getMovie(encodeURIComponent(String(perma)));
+            const response = await MovieService.getDetails(encodeURIComponent(String(perma)));
 
             movie.value = response.data;
             // const rgb = await getAvgRGB(movie.value!.poster)
@@ -129,7 +129,7 @@ watch(
                                         </span>
                                     </div>
                                     <RouterLink class="btn btn-success" :to="`/movie/${route.params.perma}/order`">
-                                        <i class="bi bi-box-arrow-up-right"></i>Naruči odmah
+                                        <i class="bi bi-box-arrow-up-right"></i> Naruči odmah
                                     </RouterLink>
                                 </div>
                             </div>
